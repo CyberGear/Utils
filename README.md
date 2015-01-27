@@ -22,7 +22,7 @@ module build.gradle
 ```Groovy
 dependencies {
     ...
-    compile 'lt.cybergear.utils:utils:0.0.1'
+    compile 'lt.cybergear:utils:0.0.1'
 }
 ```
 
