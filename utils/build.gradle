@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'lt.cybergear.utils'
+group = 'lt.cybergear'
 version = '0.0.1'
 
 android {
