@@ -2,7 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'lt.cybergear'
-version = '0.0.1'
+version = '0.0.2'
+Integer vCode = 2
 
 android {
     compileSdkVersion 21
@@ -11,7 +12,7 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 21
-        versionCode 1
+        versionCode(vCode)
         versionName(version)
     }
     buildTypes {
